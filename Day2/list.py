@@ -5,3 +5,9 @@ print(numbers[7])
 print(numbers[-3])
 print(numbers[1:7])
 print(numbers[1:8:3])
+print(numbers[:3])
+print(numbers[4:])
+print(numbers[:])  # shortcut of coppy list
+print(numbers[::-1])  # shortcut of reverse list
+
+# you have the go the site "Data Structures"
