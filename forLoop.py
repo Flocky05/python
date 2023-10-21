@@ -17,3 +17,11 @@ sum = 0
 for i in range(1, 11):
     sum = sum+i
 print('sum of first 10 natural numbers are: ', sum)
+
+x = 5
+y = 3
+print('The mod is of the number', x % y)
+
+x = 10
+y = 2
+print(x // y)
