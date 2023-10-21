@@ -11,3 +11,9 @@ for student in students:
 
 for number in range(1, 10):
     print(number)
+
+"""  Write a Python program to compute the sum of the first 10 natural numbers. """
+sum = 0
+for i in range(1, 11):
+    sum = sum+i
+print('sum of first 10 natural numbers are: ', sum)
