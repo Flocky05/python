@@ -17,3 +17,10 @@ def multiple():
 
 things = 'alu', 'badam', 'lebu', 'tomato'
 print(things)
+
+"""  Indexing
+We can use the index operator [] to access an item in a tuple, where the index starts from 0. """
+letters = ("p", "r", "o", "g", "r", "a", "m", "i", "z")
+
+print(letters[0])   # prints "p"
+print(letters[5])   # prints "a"
