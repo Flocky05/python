@@ -11,5 +11,9 @@ If you have data that doesn't change, implementing it as tuple will guarantee th
  """
 
 
-def name():
-    return Adnan
+def multiple():
+    return 3, 4
+
+
+things = 'alu', 'badam', 'lebu', 'tomato'
+print(things)
