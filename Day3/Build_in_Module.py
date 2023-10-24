@@ -8,5 +8,9 @@ num = random()
 print('This is random number: ', round(num*10))
 print('The winner is : ', choice(['sakib', 'rakib', 'niloy', 'sobuj',
       'mehedi', 'emon', 'milon', 'rohan']))
+""" shuffle() inside of shuffle use a array, at frist you have careate a array and put some value and use shuffle module and then call the array """
 shuffle(x)
 print(x)
+
+# sample(arrayName, how much element do you want show)
+print(sample(x, 7))
