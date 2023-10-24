@@ -12,3 +12,5 @@ print(person.keys())
 friend = {'id': {'name': 'mehedi', 'address': 'BagerHat', 'versity': 'FUET'},
           'father_Name': 'Momen Khan', 'Mother_Name': 'Johura Begum'}
 print(friend)
+del friend['father_Name']
+print(friend)
