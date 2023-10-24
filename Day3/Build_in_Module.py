@@ -1,5 +1,6 @@
 from math import *
 from random import *
+from time import *
 result = ceil(4.7)
 number = round(343.34)
 print(result, number)
@@ -11,6 +12,9 @@ print('The winner is : ', choice(['sakib', 'rakib', 'niloy', 'sobuj',
 """ shuffle() inside of shuffle use a array, at frist you have careate a array and put some value and use shuffle module and then call the array """
 shuffle(x)
 print(x)
-
+sleep(0.5)
 # sample(arrayName, how much element do you want show)
 print(sample(x, 7))
+# it is also a rendom number
+print(uniform(2, 3))
+print(triangular(12, 13, 8))
