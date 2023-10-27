@@ -17,3 +17,17 @@ function DisplyType(code: number | string | boolean) {
 }
 
 DisplyType(true);
+
+/* some times may u becomeing a problem like string or number and both are right */
+
+function getDBId(id: string | number) {
+  if (typeof id === "string") {
+    id.toUpperCase();
+    console.log("This is already converted to UpperCase", id);
+  } else {
+    id.toString();
+    console.log("this is converted string type bro", id);
+  }
+}
+
+getDBId(" ma ki koro?");
